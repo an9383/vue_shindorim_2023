@@ -1,0 +1,35 @@
+{
+  "name": "vue3-an9383-game",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "bootstrap": "^5.2.3",
+    "@popperjs/core": "^2.11.6",
+    "vue-router": "^4.0.13",
+    "pinia": "^2.1.6",
+    "axios": "^1.3.4"
+  },
+
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-unused-vars": "off"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

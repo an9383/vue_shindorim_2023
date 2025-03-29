@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;vue3-an9383-example&apos;" deleteContents="false" description="Delete resource &apos;vue3-an9383-example&apos;" element1="/vue3-an9383-example" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1693636206378"/>
+</session>

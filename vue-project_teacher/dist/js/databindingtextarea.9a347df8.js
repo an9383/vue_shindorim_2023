@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvuejs3x"]=self["webpackChunkvuejs3x"]||[]).push([[187],{3794:function(e,a,n){n.r(a),n.d(a,{default:function(){return d}});var r=n(6252),t=n(9963);function u(e,a,n,u,s,l){return(0,r.wg)(),(0,r.iD)("div",null,[(0,r.wy)((0,r._)("textarea",{"onUpdate:modelValue":a[0]||(a[0]=e=>s.message=e)},null,512),[[t.nr,s.message]])])}var s={data(){return{message:"여러줄을 입력할 수 있는 textarea 입니다."}}},l=n(3744);const c=(0,l.Z)(s,[["render",u]]);var d=c}}]);
+//# sourceMappingURL=databindingtextarea.9a347df8.js.map

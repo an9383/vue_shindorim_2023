@@ -1,0 +1,15 @@
+vue2(optional api) -> vue3(composition api) => vue3(composition set up)
+
+자바스크립트 문법기반
+vue가 가지는 특성(문법)은 => 모듈(객체,함수) 형태로 제공됨
+
+ref와 reactive
+
+this 사용을 언제 부터 가능한가.
+
+Vuex = pinia   (react = redux = 리덕스)
+router
+
+
+========================================
+데이타 

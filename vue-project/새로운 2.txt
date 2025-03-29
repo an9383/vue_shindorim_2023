@@ -1,0 +1,20 @@
+컴포넌트에서 부모(this.$refs) -> 자식 (ref) => 자식의 메소드 호출
+
+부모 (props 태그) -> 자식 (props) => 데이타 호출
+
+자식 -> 부모
+1)Emit
+
+2) slot
+
+3) props = 자식이 쓸 키:value 형식 
+provide/inject = 자식 또는 자손 이 쓸 키:value 형식 
+data() = 자기자신한테 쓸 키:value 형식 
+
+4) vuex
+
+vue.cmd create vue3-an9383-game
+npm install @vue/cli
+
+@/ : src/
+

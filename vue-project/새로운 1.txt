@@ -1,0 +1,7 @@
+front 프레임워크 = 앵귤러, 뷰 = 리액트 = 전에 자바스크립트 jquery
+문법들
+-변수: v-on => directives = 태그안에 들어 가는 문법들
+- 바인딩, for문, 조건문
+- 함수들 = method, computed, watch
+
+- 라이프 사이클

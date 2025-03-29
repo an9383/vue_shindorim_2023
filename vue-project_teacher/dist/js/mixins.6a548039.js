@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvuejs3x"]=self["webpackChunkvuejs3x"]||[]).push([[295],{9818:function(t,e,s){s.r(e),s.d(e,{default:function(){return o}});var n=s(6252);function i(t,e,s,i,u,r){return(0,n.wg)(),(0,n.iD)("div")}var u=s(8332),r={mixins:[u.Z],data(){return{productList:[]}},async mounted(){this.productList=await this.$callAPI("https://ada1e106-f1b6-4ff2-be04-e311ecba599d.mock.pstmn.io/list","get"),console.log(this.productList)}},a=s(3744);const c=(0,a.Z)(r,[["render",i]]);var o=c}}]);
+//# sourceMappingURL=mixins.6a548039.js.map

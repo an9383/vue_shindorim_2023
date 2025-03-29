@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvuejs3x"]=self["webpackChunkvuejs3x"]||[]).push([[28],{4954:function(e,r,s){s.r(r),s.d(r,{default:function(){return v}});var a=s(6252),t=s(3577);function n(e,r,s,n,c,u){return(0,a.wg)(),(0,a.iD)("div",{class:(0,t.C_)(["container",[c.activeClass,c.errorClass]])},"Class Binding",2)}var c={data(){return{activeClass:"active",errorClass:"text-red"}}},u=s(3744);const i=(0,u.Z)(c,[["render",n],["__scopeId","data-v-ff985f98"]]);var v=i}}]);
+//# sourceMappingURL=databindingclass2.3c9a6093.js.map
