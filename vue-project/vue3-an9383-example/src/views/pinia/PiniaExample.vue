@@ -10,4 +10,5 @@ import {useCouterStore} from '@/stores/counter'
 const counter = useCouterStore()
 </script>
 
-<style scoped></style>
+<style scoped>
+</style>
