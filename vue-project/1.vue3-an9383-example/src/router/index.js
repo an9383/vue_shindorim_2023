@@ -16,42 +16,42 @@ const routes = [
       {
         path: 'binding1',
         meta: { title: '데이터바인딩' },
-        component: () => import(/* webpackChunkName: "databing1" */ '../views/directives/DataBinding1.vue')
+        component: () => import(/* webpackChunkName: "databing1" */ '../views/1.directives/DataBinding1.vue')
       },
       {
         path: 'binding2',
         meta: { title: '데이터바인딩(html)' },
-        component: () => import(/* webpackChunkName: "databing2" */ '../views/directives/DataBindingHtml2.vue')
+        component: () => import(/* webpackChunkName: "databing2" */ '../views/1.directives/DataBindingHtml2.vue')
       },
       {
         path: 'binding3',
         meta: { title: '데이터바인딩(InputText)' },
-        component: () => import(/* webpackChunkName: "databing3" */ '../views/directives/DataBindingInputText3.vue')
+        component: () => import(/* webpackChunkName: "databing3" */ '../views/1.directives/DataBindingInputText3.vue')
       },
       {
         path: 'binding4',
         meta: { title: '데이터바인딩(TextArea)' },
-        component: () => import(/* webpackChunkName: "databing4" */ '../views/directives/DataBindingTextArea4.vue')
+        component: () => import(/* webpackChunkName: "databing4" */ '../views/1.directives/DataBindingTextArea4.vue')
       },
       {
         path: 'binding5',
         meta: { title: '데이터바인딩(Select)' },
-        component: () => import(/* webpackChunkName: "databing5" */ '../views/directives/DataBindingSelect5.vue')
+        component: () => import(/* webpackChunkName: "databing5" */ '../views/1.directives/DataBindingSelect5.vue')
       },
       {
         path: 'binding6',
         meta: { title: '데이터바인딩(CheckBox)' },
-        component: () => import(/* webpackChunkName: "databing6" */ '../views/directives/DataBindingCheckBox6.vue')
+        component: () => import(/* webpackChunkName: "databing6" */ '../views/1.directives/DataBindingCheckBox6.vue')
       },
       {
         path: 'binding7',
         meta: { title: '데이터바인딩(CheckBox2)' },
-        component: () => import(/* webpackChunkName: "databing7" */ '../views/directives/DataBindingCheckBox7.vue')
+        component: () => import(/* webpackChunkName: "databing7" */ '../views/1.directives/DataBindingCheckBox7.vue')
       },
       {
         path: 'binding8',
         meta: { title: '데이터바인딩(라디오버튼)' },
-        component: () => import(/* webpackChunkName: "databing8" */ '../views/directives/DataBindingRadio8.vue')
+        component: () => import(/* webpackChunkName: "databing8" */ '../views/1.directives/DataBindingRadio8.vue')
       },
     ] 
   },
@@ -65,7 +65,7 @@ const routes = [
         meta: { title: "데이터바인딩-Attr(속성)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing9" */ "../views/vbind/DataBindingAttr9.vue"
+            /* webpackChunkName: "databing9" */ "../views/2.vbind/DataBindingAttr9.vue"
           ),
       },
       {
@@ -73,7 +73,7 @@ const routes = [
         meta: { title: "데이터바인딩-버튼(속성)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing10" */ "../views/vbind/DataBindingButton10.vue"
+            /* webpackChunkName: "databing10" */ "../views/2.vbind/DataBindingButton10.vue"
           ),
       },
       {
@@ -81,7 +81,7 @@ const routes = [
         meta: { title: "데이터바인딩-클래스(속성)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing11" */ "../views/vbind/DataBindingClass11.vue"
+            /* webpackChunkName: "databing11" */ "../views/2.vbind/DataBindingClass11.vue"
           ),
       },
       {
@@ -89,7 +89,7 @@ const routes = [
         meta: { title: "데이터바인딩-클래스2(속성)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing12" */ "../views/vbind/DataBindingClass12.vue"
+            /* webpackChunkName: "databing12" */ "../views/2.vbind/DataBindingClass12.vue"
           ),
       },
       {
@@ -97,7 +97,7 @@ const routes = [
         meta: { title: "데이터바인딩-for문" },
         component: () =>
           import(
-            /* webpackChunkName: "databing13" */ "../views/vfor/DataBindingList13.vue"
+            /* webpackChunkName: "databing13" */ "../views/3.vfor/DataBindingList13.vue"
           ),
       },
       {
@@ -105,7 +105,7 @@ const routes = [
         meta: { title: "데이터바인딩-IF문" },
         component: () =>
           import(
-            /* webpackChunkName: "databing14" */ "../views/vif/DataBindingIf14.vue"
+            /* webpackChunkName: "databing14" */ "../views/4.vif/DataBindingIf14.vue"
             
           ),
       },
@@ -114,7 +114,7 @@ const routes = [
         meta: { title: "이벤트클릭-von" },
         component: () =>
           import(
-            /* webpackChunkName: "databing15" */ "../views/von/EventClick15.vue"
+            /* webpackChunkName: "databing15" */ "../views/5.von/EventClick15.vue"
             
           ),
       },
@@ -123,7 +123,7 @@ const routes = [
         meta: { title: "이벤트 체인지" },
         component: () =>
           import(
-            /* webpackChunkName: "databing16" */ "../views/von/EventChange16.vue"
+            /* webpackChunkName: "databing16" */ "../views/5.von/EventChange16.vue"
             
           ),
       },
@@ -132,7 +132,7 @@ const routes = [
         meta: { title: "이벤트 Key" },
         component: () =>
           import(
-            /* webpackChunkName: "databing17" */ "../views/von/EventKey17.vue"
+            /* webpackChunkName: "databing17" */ "../views/5.von/EventKey17.vue"
             
           ),
       },
@@ -141,7 +141,7 @@ const routes = [
         meta: { title: "함수학습-1" },
         component: () =>
           import(
-            /* webpackChunkName: "databing18" */ "../views/functions/MethodVSComputed1.vue"
+            /* webpackChunkName: "databing18" */ "../views/6.functions/MethodVSComputed1.vue"
             
           ),
       },
@@ -150,7 +150,7 @@ const routes = [
         meta: { title: "함수학습-2(Computed 예제)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing19" */ "../views/functions/MethodVSComputed2.vue"
+            /* webpackChunkName: "databing19" */ "../views/6.functions/MethodVSComputed2.vue"
             
           ),
       },
@@ -159,7 +159,7 @@ const routes = [
         meta: { title: "함수학습-3(Watch 예제)" },
         component: () =>
           import(
-            /* webpackChunkName: "databing20" */ "../views/functions/MethodVSWatch3.vue"
+            /* webpackChunkName: "databing20" */ "../views/6.functions/MethodVSWatch3.vue"
             
           ),
       },
@@ -168,7 +168,7 @@ const routes = [
         meta: { title: "라이프 사이클 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing21" */ "../views/lifecycle/LifeCycleEvent1.vue"
+            /* webpackChunkName: "databing21" */ "../views/7.lifecycle/LifeCycleEvent1.vue"
             
           ),
       },
@@ -177,7 +177,7 @@ const routes = [
         meta: { title: "Axios-Get방식 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing22" */ "../views/axios/AxiosGet1.vue"
+            /* webpackChunkName: "databing22" */ "../views/8.axios/AxiosGet1.vue"
             
           ),
       },
@@ -186,7 +186,7 @@ const routes = [
         meta: { title: "Axios-Post방식 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing23" */ "../views/axios/AxiosPost2.vue"
+            /* webpackChunkName: "databing23" */ "../views/8.axios/AxiosPost2.vue"
             
           ),
       },
@@ -195,7 +195,7 @@ const routes = [
         meta: { title: "Axios-html바인딩 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing24" */ "../views/axios/AxiosPost3.vue"
+            /* webpackChunkName: "databing24" */ "../views/8.axios/AxiosPost3.vue"
             
           ),
       },
@@ -204,7 +204,7 @@ const routes = [
         meta: { title: "Axios-전역객체 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing25" */ "../views/axios/AxiosGlobal4.vue"
+            /* webpackChunkName: "databing25" */ "../views/8.axios/AxiosGlobal4.vue"
             
           ),
       },
@@ -213,7 +213,7 @@ const routes = [
         meta: { title: "Axios-동기화 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing26" */ "../views/axios/AxiosSync5.vue"
+            /* webpackChunkName: "databing26" */ "../views/8.axios/AxiosSync5.vue"
             
           ),
       },
@@ -222,7 +222,7 @@ const routes = [
         meta: { title: "컴포넌트 개념" },
         component: () =>
           import(
-            /* webpackChunkName: "databing26" */ "../views/compo/ParentComponent.vue"
+            /* webpackChunkName: "databing26" */ "../views/9.compo/ParentComponent.vue"
             
           ),
       },
@@ -231,7 +231,7 @@ const routes = [
         meta: { title: "컴포넌트 부모-자식 이벤트 호출" },
         component: () =>
           import(
-            /* webpackChunkName: "databing28" */ "../views/props/ParentCompo1.vue"
+            /* webpackChunkName: "databing28" */ "../views/10.props/ParentCompo1.vue"
             
           ),
       },
@@ -240,7 +240,7 @@ const routes = [
         meta: { title: "컴포넌트 자식-부모 Emit 호출" },
         component: () =>
           import(
-            /* webpackChunkName: "databing29" */ "../views/props/ParentCompoEmit3.vue"
+            /* webpackChunkName: "databing29" */ "../views/10.props/ParentCompoEmit3.vue"
             
           ),
       },
@@ -249,7 +249,7 @@ const routes = [
         meta: { title: "슬롯 => 기본개념" },
         component: () =>
           import(
-            /* webpackChunkName: "databing29" */ "../views/slot/SlotParent.vue"
+            /* webpackChunkName: "databing29" */ "../views/11.slot/SlotParent.vue"
             
           ),
       },
@@ -258,7 +258,7 @@ const routes = [
         meta: { title: "슬롯 => 응용" },
         component: () =>
           import(
-            /* webpackChunkName: "databing31" */ "../views/slot/SlotUseModalLayout.vue"
+            /* webpackChunkName: "databing31" */ "../views/11.slot/SlotUseModalLayout.vue"
             
           ),
       },
@@ -267,7 +267,7 @@ const routes = [
         meta: { title: "Provide-Inject" },
         component: () =>
           import(
-            /* webpackChunkName: "databing32" */ "../views/provideinject/BigComponent.vue"
+            /* webpackChunkName: "databing32" */ "../views/12.provideinject/BigComponent.vue"
             
           ),
       },
@@ -276,7 +276,7 @@ const routes = [
         meta: { title: "Mixin - mixed in" },
         component: () =>
           import(
-            /* webpackChunkName: "databing33" */ "../views/mixin/UseMixinExample3.vue"
+            /* webpackChunkName: "databing33" */ "../views/13.mixin/UseMixinExample3.vue"
             
           ),
       },
@@ -285,7 +285,7 @@ const routes = [
         meta: { title: "계산기-옵셔널 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "databing34" */ "../views/composition/CalculatorOptional.vue"
+            /* webpackChunkName: "databing34" */ "../views/14.composition/CalculatorOptional.vue"
             
           ),
       },
@@ -301,7 +301,7 @@ const routes = [
         meta: { title: "컴포지션 API - 계산기" },
         component: () =>
           import(
-            /* webpackChunkName: "compo1" */ "../views/composition/CalculatorComposition1.vue"
+            /* webpackChunkName: "compo1" */ "../views/14.composition/CalculatorComposition1.vue"
           ),
       },
       {
@@ -309,7 +309,7 @@ const routes = [
         meta: { title: "컴포지션 API - Ref예제" },
         component: () =>
           import(
-            /* webpackChunkName: "compo2" */ "../views/composition/CompositionRef2.vue"
+            /* webpackChunkName: "compo2" */ "../views/14.composition/CompositionRef2.vue"
           ),
       },
       {
@@ -317,7 +317,7 @@ const routes = [
         meta: { title: "컴포지션 API - 함수 처리" },
         component: () =>
           import(
-            /* webpackChunkName: "compo3" */ "../views/composition/CompositionFunction3.vue"
+            /* webpackChunkName: "compo3" */ "../views/14.composition/CompositionFunction3.vue"
           ),
       },
       {
@@ -325,7 +325,7 @@ const routes = [
         meta: { title: "컴포지션 API - 생명주기(Life Cycle)" },
         component: () =>
           import(
-            /* webpackChunkName: "compo4" */ "../views/composition/CompositionLifeCycle4.vue"
+            /* webpackChunkName: "compo4" */ "../views/14.composition/CompositionLifeCycle4.vue"
           ),
       },
       {
@@ -333,7 +333,7 @@ const routes = [
         meta: { title: "컴포지션 API - Props 예제" },
         component: () =>
           import(
-            /* webpackChunkName: "compo5" */ "../views/composition/CompositionParent5.vue"
+            /* webpackChunkName: "compo5" */ "../views/14.composition/CompositionParent5.vue"
           ),
       },
       {
@@ -341,7 +341,7 @@ const routes = [
         meta: { title: "컴포지션 API - ProvideInject" },
         component: () =>
           import(
-            /* webpackChunkName: "compo6" */ "../views/composition/CompositionProvide6.vue"
+            /* webpackChunkName: "compo6" */ "../views/14.composition/CompositionProvide6.vue"
           ),
       },
       {
@@ -349,7 +349,7 @@ const routes = [
         meta: { title: "컴포지션 API - 스크립트 셋업" },
         component: () =>
             import(
-                /* webpackChunkName: "compo7" */ "../views/composition/CompositionSetup.vue"
+                /* webpackChunkName: "compo7" */ "../views/14.composition/CompositionSetup.vue"
                 ),
       },
       {
@@ -357,7 +357,7 @@ const routes = [
         meta: { title: "컴포지션 API - Vuex예제" },
         component: () =>
             import(
-                /* webpackChunkName: "compo8" */ "../views/vuex/UserVuex.vue"
+                /* webpackChunkName: "compo8" */ "../views/15.vuex/UserVuex.vue"
                 ),
       },
       {
@@ -365,7 +365,7 @@ const routes = [
         meta: { title: "컴포지션 API - Pinia예제" },
         component: () =>
             import(
-                /* webpackChunkName: "compo9" */ "../views/pinia/PiniaExample.vue"
+                /* webpackChunkName: "compo9" */ "../views/16.pinia/PiniaExample.vue"
                 ),
       },
     ],
